@@ -1,0 +1,10 @@
+﻿  Source.cpp
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): error C3511: 'ds_lop': a call to a delegating constructor shall be the only member-initializer
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): message : This diagnostic occurred in the compiler generated function 'ds_lop::ds_lop(const ds_lop &)'
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): error C2664: 'ds_lop::ds_lop(ds_lop &&)': cannot convert argument 1 from 'const lop [100]' to 'const ds_lop &'
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): message : Reason: cannot convert from 'const lop [100]' to 'const ds_lop'
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(77,1): message : see declaration of 'ds_lop::ds_lop'
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): message : This diagnostic occurred in the compiler generated function 'ds_lop::ds_lop(const ds_lop &)'
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): error C2437: 'sl_lop': has already been initialized
+D:\Code\C++\QuanLiSinhVien1(BT)\Project3\Source.cpp(192,1): message : This diagnostic occurred in the compiler generated function 'ds_lop::ds_lop(const ds_lop &)'
